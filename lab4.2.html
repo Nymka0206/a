@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <script>
+var word = "javascript"
+function countOccurrences(string, letter) {
+    var count = 0;
+    for (var i = 0; i < string.length; i++) {
+        if (string[i].toLowerCase() === letter.toLowerCase()) {
+            count++;
+        }
+    }
+    return count;
+}
+var mCount = countOccurrences(word, 'a');
+console.log("Occurrences of 'a':", mCount);
+    </script>
+</body>
+</html>

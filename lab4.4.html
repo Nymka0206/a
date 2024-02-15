@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <script>
+        // Гараас хэрэглэгчээс текст оруулах
+var profession = prompt("Гараас професси хичээлээ оруулна уу:");
+
+// Үр дүнг хэвлэх функц
+function printResult(profession) {
+    switch (profession) {
+        case "багш":
+            console.log("Та багш байна.");
+            break;
+        case "оюутан":
+            console.log("Та оюутан байна.");
+            break;
+        case "зураач":
+            console.log("Та зураг зурдаг байна.");
+            break;
+        case "эмч":
+            console.log("Та эмч байна.");
+            break;
+        default:
+            console.log("Өөр үр дүн гарлаа.");
+            break;
+    }
+}
+
+// Үр дүнг хэвлэх
+printResult(profession);
+    </script>
+</body>
+</html>
